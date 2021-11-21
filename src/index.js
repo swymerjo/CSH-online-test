@@ -109,10 +109,7 @@ localStorage.setItem("eleKey", JSON.stringify(ele));
     }
     
        
-          if(ele2.length>0){
-           document.getElementById("p2").innerHTML = ele2;
-          }
-          else{
+          if(ele2.length===0){
           document.getElementById("p3").innerHTML = "Please select 1 or more options";
           }
 
